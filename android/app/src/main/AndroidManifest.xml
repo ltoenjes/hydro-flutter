@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hydro_flutter">
-    <uses-permission android:name="android.permission.INTERNET" />
-   <application
-        android:label="hydro_flutter" android:usesCleartextTraffic="true"
+    package="de.hydro.hydro_flutter">
+    <uses-permission android:name="android.permission.INTERNET"/>
+   <application android:usesCleartextTraffic="true"
+        android:label="hydro_flutter"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
